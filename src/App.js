@@ -1,20 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// import './Main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/header/Header"
+
 
 function App() {
   return (
     <>
-    <header>
-      <h5>Donnamiamora</h5>
-      <nav>
-        <a href="#">Tienda</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Nuestras redes</a>
-      </nav>
-    </header>
+    <Header/>
+
     </>
   );
 }
-
 export default App;

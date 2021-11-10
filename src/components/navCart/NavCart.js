@@ -1,10 +1,10 @@
 import { CgShoppingCart } from "react-icons/cg";
 
-const NavCart = () =>{
+function NavCart (){
     return(
     <>
     <div>
-        <a href="#"><CgShoppingCart/></a>
+        <a href="#pizza"><CgShoppingCart/></a>
     </div>
     </>
     )

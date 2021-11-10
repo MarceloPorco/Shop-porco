@@ -1,5 +1,7 @@
 import './Header.css';
 import NavCart from "../navCart/NavCart"
+
+
 function Header() {
     return (
       <>
